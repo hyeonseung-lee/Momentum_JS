@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>this is title</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/positioning.css" />
+  </head>
+  <body>
+    <!-- top  -->
+    <div class="weatherDiv">
+      <spnac class="js-weather"></spnac>
+    </div>
+
+    <!-- middle  -->
+    <div class="center">
+      <div class="InfoDiv">
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+        <form class="js-form form showing">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+
+        <form class="js-greetings"></form>
+
+        <form class="js-toDoForm inputToDos">
+          <input type="text" placeholder="Write a to do" />
+        </form>
+      </div>
+    </div>
+
+    <!-- bottom  -->
+    <div class="ToDosDiv center">
+      <ul class="js-toDoList"></ul>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/gretting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/scraper.js"></script>
+  </body>
+</html>

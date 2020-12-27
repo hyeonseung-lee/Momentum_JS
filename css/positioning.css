@@ -1,0 +1,27 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.InfoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputToDos {
+  margin-top: 30%;
+}
+
+.weatherDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ToDosDiv {
+  margin-top: 2%;
+}
